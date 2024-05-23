@@ -1,12 +1,6 @@
 # Cloudflare Worker 2 Vless & Sub
 这是一个基于 Cloudflare Worker 平台的脚本，在原版的基础上修改了显示 VLESS 配置信息转换为订阅内容。使用该脚本，你可以方便地将 VLESS 配置信息使用在线配置转换到 Clash 或 Singbox 等工具中。
 
-- 基础部署视频教程：https://www.youtube.com/watch?v=LeT4jQUh8ok
-- 快速部署视频教程：https://www.youtube.com/watch?v=59THrmJhmAw ***最佳推荐!!!***
-- 进阶使用视频教程：https://www.youtube.com/watch?v=s91zjpw3-P8
-
-Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)
-
 # 免责声明
 
 本免责声明适用于 GitHub 上的 “edgetunnel” 项目（以下简称“该项目”），项目链接为：https://github.com/cmliu/edgetunnel
@@ -30,7 +24,7 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)
 - 通过提交虚假的节点配置给订阅服务，避免节点配置信息泄露。
 - 另外，您也可以选择自行部署 [WorkerVless2sub 订阅生成服务](https://github.com/cmliu/WorkerVless2sub)，这样既可以利用订阅生成器的便利。
    
-## Workers 部署方法 [视频教程](https://www.youtube.com/watch?v=LeT4jQUh8ok&t=83s)
+## Workers 部署方法
 1. 部署 Cloudflare Worker：
    - 在 Cloudflare Worker 控制台中创建一个新的 Worker。
    - 将 [worker.js](https://github.com/cmliu/edgetunnel/blob/main/_worker.js) 的内容粘贴到 Worker 编辑器中。
@@ -58,7 +52,7 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)
 
 </details>
 
-## Pages 上传 部署方法 **最佳推荐!!!** [视频教程](https://www.youtube.com/watch?v=59THrmJhmAw)
+## Pages 上传 部署方法 **最佳推荐!!!**
 1. 部署 Cloudflare Pages：
    - 下载 [worker.zip](https://raw.githubusercontent.com/cmliu/edgetunnel/main/worker.zip) 文件，并点上 Star !!!
    - 在 Cloudflare Pages 控制台中选择 `上传资产`后，为你的项目取名后点击 `创建项目`，然后上传你下载好的 [worker.zip](https://raw.githubusercontent.com/cmliu/edgetunnel/main/worker.zip) 文件后点击 `部署站点`。
@@ -96,8 +90,7 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)
 
 </details>
 
-## Pages GitHub 部署方法 [视频教程](https://www.youtube.com/watch?v=LeT4jQUh8ok&t=560s)
-1. 部署 Cloudflare Pages：
+## Pages GitHub 部署方法
    - 在 Github 上先 Fork 本项目，并点上 Star !!!
    - 在 Cloudflare Pages 控制台中选择 `连接到 Git`后，选中 `edgetunnel`项目后点击 `开始设置`。
    - 在 `设置构建和部署`页面下方，选择 `环境变量（高级）`后并 `添加变量`
@@ -178,8 +171,6 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)
    ```
 
 
-## Star 星星走起
-[![Stargazers over time](https://starchart.cc/cmliu/edgetunnel.svg?variant=adaptive)](https://starchart.cc/cmliu/edgetunnel)
 
 ## 已适配自适应订阅内容
    - [v2rayN](https://github.com/2dust/v2rayN)
@@ -188,6 +179,3 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)
    - sing-box（SFI）
 
 
-
-# 感谢
-[zizifn](https://github.com/zizifn/edgetunnel)、[3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)、[Stanley-baby](https://github.com/Stanley-baby)、[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash/config)、[SHIJS1999](https://github.com/SHIJS1999/cloudflare-worker-vless-ip)、[肥羊订阅转换](https://suburl.v1.mk)
